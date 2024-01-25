@@ -3,7 +3,7 @@ import com.practice.MyWindow;
 public class Main {
     public static void main(String[]args){
         System.out.println("Testing......");
-        MyWindow w = new MyWindow();
+        MyWindow w= new MyWindow();
 
     }
 }
