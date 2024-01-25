@@ -40,7 +40,7 @@ public class MyWindow extends JFrame {
                // String dateTime=new Date().toLocaleString();
                 Date d= new Date();
                 SimpleDateFormat sfd=new SimpleDateFormat();
-               String dateTime= sfd.format(d);
+                String dateTime= sfd.format(d);
                 clockLabel.setText(dateTime);
             }
 
